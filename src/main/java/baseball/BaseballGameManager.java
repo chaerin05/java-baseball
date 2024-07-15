@@ -7,7 +7,7 @@ public class BaseballGameManager {
 
     public void startGame() {
         System.out.println("숫자 야구 게임을 시작합니다.");
-
+        System.out.println("test.");
         while (true) {
             String answer = randomNumberGenerator.getAnswer();
             System.out.println("정답(확인용): " + answer);
@@ -50,7 +50,6 @@ public class BaseballGameManager {
                     } else {
                         System.out.println(strike + " 스트라이크, " + ball + " 볼");
                     }
-                    System.out.println("확인용.");
                 }
             }
         }
